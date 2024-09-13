@@ -1,0 +1,1 @@
+const String kGreetingText="Hello,\nI am a Flutter Developer!";
