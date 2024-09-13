@@ -14,13 +14,13 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return   Stack(
       children: [
-        HomePageBackgroundWiget(),
-        Container(
+        const HomePageBackgroundWiget(),
+        SizedBox(
           width: double.maxFinite,
           height: 750,
           child: Column(
             children: [
-              Expanded(flex: 1, child: TypingStyleWidget()),
+              const Expanded(flex: 1, child: TypingStyleWidget()),
               SizedBox(
                 width: 200,
                 height: 50,

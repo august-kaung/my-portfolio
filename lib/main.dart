@@ -1,7 +1,4 @@
 import 'package:firebase_core/firebase_core.dart';
-import 'package:my_portfolio/pages/home_page/home_page.dart';
-import 'package:my_portfolio/pages/home_page/home_page_provider.dart';
-import 'package:provider/provider.dart';
 
 import '../import.dart';
 
@@ -37,7 +34,7 @@ class MyApp extends StatelessWidget {
           ChangeNotifierProvider<HomePageProvider>(
               create: (_) => HomePageProvider()),
         ],
-        child: MainPage(),
+        child: const MainPage(),
       ),
     );
   }
