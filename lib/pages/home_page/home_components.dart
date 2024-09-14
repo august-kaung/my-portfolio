@@ -40,7 +40,8 @@ class HomePageBackgroundWiget extends StatelessWidget {
     return Container(
       width: double.maxFinite,
       height: 800,
-      color: Colors.black,
+      color: Colors.yellow,
+
     );
   }
 }
