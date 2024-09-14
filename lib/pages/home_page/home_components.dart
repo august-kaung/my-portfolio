@@ -41,7 +41,8 @@ class HomePageBackgroundWiget extends StatelessWidget {
       width: double.maxFinite,
       height: 800,
       color: Colors.red,
-
+    //modified from dev_kh
+    
     );
   }
 }
